@@ -1,0 +1,98 @@
+/* Geral codicos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+
+}
+
+/* MAIN */
+header.barra{
+    width: 100%;
+    height: 9.5vh;
+    background-color: #f78e0c;
+}
+
+.container-center{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.escolha-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    gap: 57px;
+}
+.estudante,.empresa{
+    width: 28vw;
+    height: 60vh;
+    border-radius: 25px;
+    box-shadow: 0 0 0.5rem 1px #f78e0c;
+    background-color: #f78e0c;
+    text-align: center;
+    font-size: 2.5rem;
+    transition: 0.3s;
+    padding: 5px;
+}
+.estudante:hover{
+    transform: scale(1.01,1.01);
+}
+.icon-estudante{
+    background-image: url('../Imagens/estudante-masculino.png');
+    background-size: contain;
+    width: 100%;
+    height: 46vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icon-empresa{
+    background-image: url('../Imagens/companhia.png');
+    background-size: 50vh 20vw;
+    width: 100%;
+    height: 46vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Entra{
+    text-align: center;
+    position: relative;
+    top: 4vh;
+
+}
+.Entra h1{
+    font-size : clamp(1rem, 5vw, 11rem);
+}
+/* Footer */
+footer{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    height: 28.5vh;
+    background-color: #f78e0c;
+}
+.logo{
+    width: 20vw;
+    height: 30vh;
+    background-position: center;
+    background-image: url('../Imagens/LogoElectus.jpeg');
+}
+
+.informacoes{
+    display: flex;
+    gap: 30px;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
