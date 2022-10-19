@@ -101,6 +101,9 @@ header li a:hover{
 .box h2{
     margin-top: -25px;
 }
+.box p{
+    margin-top: 15px;
+}
 
 .box-icone{
     height: 16vh;
@@ -114,6 +117,97 @@ header li a:hover{
     box-shadow: 0.2rem 0.2rem 5px 2px #fff;
     width: 8vw;
     background-color: #e99a39;
+}
+.box-icone2{
+    height: 16vh;
+    margin: 0 auto;
+    background-image: url('../Imagens/aperto-de-mao(1).png');
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    top: -50px;
+    border-radius: 50px;
+    box-shadow: 0.2rem 0.2rem 5px 2px #fff;
+    width: 8vw;
+    background-color: #e99a39;
+}
+.Conteiner-portfolio{
+    margin-top: 20vh;
+    width: 100%;
+    padding: 0 40px;
+    height: 80vh;
+}
+
+.Titulo{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16pt;
+} 
+.box-portifolio{
+    display: flex;
+    width: 50vw;
+    border: 1px solid #fff;
+    height: 27vh;
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+}
+.box-flex{
+    margin-top: 50px;
+    gap: 20px;
+    display: flex;
+}
+.text-box{
+    margin-left: 20px;
+}
+.img{
+    width: 8vw;
+    height: 16vh;
+}
+.container-contato{
+    width: 100%;
+    margin-top: 30px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../Imagens/background1.jpg');
+}
+.opacity-2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.flex-contato{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.box-login,.box-empresa{
+    margin-top: 40px;
+    text-align: center;
+    width: 25vw;
+    font-size: 20pt;
+    height: 50vh;
+    background-color: #f78e0c;
+}
+.opacity-2 .Titulo h2{
+    color: #fff;
+}
+.estudante,.empresa{
+    height: 45vh;
+    width: 25vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.estudante{
+    background-image: url('../Imagens/estudante-masculino.png');
+}
+.empresa{
+    background-image: url('../Imagens/companhia.png');
+    margin-top: 15px;
+    height: 42vh;
 }
 .teste{
     width: 100%;
